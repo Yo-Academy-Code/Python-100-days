@@ -1,20 +1,43 @@
-"""
-Общие операции с переменными
-Название файла '01.переменные.py'
+a = 123
+b = 67
+print(a, b)
 
-Version: 0.1
-Author: Andrej Marinchenko
-Date: 2023-03-04
-"""
+q = True
+w = 12
+e = 'wdwd'
+r = 23.32
 
-a = 321  # присваиваем переменной а значение = 321
-b = 11  # присваиваем переменной b значение = 11
+print(a + b)
+print(a - b)
+print(a * b)
+print(a ** b)
+print(a / b)
+print(a % b)
+print(a // b)
 
+z = 10
+x = 5
 
-print(a + b)  # сумма переменных
-print(a - b)  # разность переменных
-print(a * b)  # умножение
-print(a / b)  # деление
-print(a // b)  # деление без остатка
-print(a % b)  # разделить по модулю (взятие остатка)
-print(a ** b)  # возведение а в степень b
+z += x
+print(z) 
+z -= x
+print(z) 
+z *= x
+print(z) 
+z /= x
+print(z) 
+
+x = 1
+y = 0
+
+x == y
+x >= y
+x <= y
+x > y
+x < y
+x != y
+
+y and x
+x or y
+not(x)
+print(x)

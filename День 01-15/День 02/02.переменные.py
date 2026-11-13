@@ -19,3 +19,15 @@ print(a / b)  # деление
 print(a // b)  # деление без остатка
 print(a % b)  # разделить по модулю (взятие остатка)
 print(a ** b)  # возведение а в степень b
+
+# мой вариант
+p = int(input('Введи чилсо p: '))
+o = int(input('Введи число o: '))
+
+print(p + o)  
+print(p - o)  
+print(p * o)  
+print(p / o) 
+print(p // o)  
+print(p % o)  
+print(p ** o) 
